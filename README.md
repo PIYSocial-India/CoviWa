@@ -1,5 +1,8 @@
 <img src="https://raw.githubusercontent.com/PIYSocial-India/CoviWa/master/Screenshots/COVIWA.png" height=400>
 
+![Repo Size](https://img.shields.io/github/languages/code-size/PIYSocial-India/CoviWa?color=black&logo=java&logoColor=green&style=for-the-badge)
+ ![Top Language](https://img.shields.io/github/languages/top/PIYSocial-India/CoviWa?color=red&logo=java&style=for-the-badge)
+
 ## Download the app
 ---
 
