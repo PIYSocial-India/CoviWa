@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="com.ss.piysocial.coiwa.ui.home.HomeFragment"
+        android:label="@string/title_home"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/navigation_tweets"
+        android:name="com.ss.piysocial.coiwa.ui.tweets.TweetsFragment"
+        android:label="@string/title_tweets"
+        tools:layout="@layout/fragment_tweets" />
+
+    <fragment
+        android:id="@+id/navigation_greetings"
+        android:name="com.ss.piysocial.coiwa.ui.greetings.GreetingsFragment"
+        android:label="@string/title_greetings"
+        tools:layout="@layout/fragment_greetings" />
+    <fragment
+        android:id="@+id/navigation_plasma"
+        android:name="com.ss.piysocial.coiwa.ui.plasma.plasmaFragment"
+        android:label="@string/title_plasma"
+        tools:layout="@layout/fragment_plasma" />
+
+    <fragment
+        android:id="@+id/navigation_donation"
+        android:name="com.ss.piysocial.coiwa.ui.donations.DonationFragment"
+        android:label="@string/title_donation"
+        tools:layout="@layout/fragment_donation" />
+</navigation>

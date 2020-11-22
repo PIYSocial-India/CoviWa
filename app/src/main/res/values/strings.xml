@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">CoviWa</string>
+    <string name="title_home">Home</string>
+    <string name="title_tweets">Tweets</string>
+    <string name="title_greetings">Greetings</string>
+    <string name="title_plasma">Plasma Donation</string>
+    <string name="title_donation">Fund Donation</string>
+</resources>
