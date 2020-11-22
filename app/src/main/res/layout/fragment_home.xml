@@ -7,22 +7,21 @@
     tools:context=".ui.home.HomeFragment">
 
     <ImageView
-        android:layout_width="380dp"
+        android:layout_width="match_parent"
         android:layout_height="200dp"
         android:src="@drawable/covidwarrior"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="50dp"/>
+        app:layout_constraintTop_toTopOf="parent" />
 
     <WebView
         android:id="@+id/webview0"
-        android:layout_width="350dp"
+        android:layout_width="match_parent"
         android:layout_height="match_parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginTop="280dp"
+        android:layout_marginTop="230dp"
         android:layout_marginBottom="80dp"/>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
